@@ -1,0 +1,6 @@
+{
+  "name": "Porfírio & Souza Advogados",
+  "description": "Escritório de advocacia especializado em Direito Trabalhista, Previdenciário e Civil com excelência, ética e compromisso. Atendimento em São Paulo e região.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-cinzel: "Cinzel", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --color-gold-100: #faf4e6;
+  --color-gold-200: #f2e3c6;
+  --color-gold-300: #e4cda0;
+  --color-gold-400: #d4b57b;
+  --color-gold-500: #c5a367;
+  --color-gold-600: #a68444;
+  --color-gold-700: #85652e;
+  --color-dark-950: #08090d;
+  --color-dark-900: #0d1017;
+  --color-dark-850: #121620;
+  --color-dark-800: #181d2a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #0b0d12;
+  color: #ded9d1;
+  overflow-x: hidden;
+}
+
+.font-cormorant {
+  font-family: "Cormorant Garamond", Georgia, serif;
+}
+
+.font-cinzel {
+  font-family: "Cinzel", Georgia, serif;
+}
+
+/* Luxury gold text gradient */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #f5e6ca 0%, #d4b57b 50%, #b88f4c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Luxury gold border shimmer */
+.gold-border {
+  border-color: rgba(197, 163, 103, 0.28);
+}
+
+.gold-border-glow:hover {
+  border-color: rgba(212, 181, 123, 0.65);
+  box-shadow: 0 0 25px rgba(197, 163, 103, 0.12);
+}
